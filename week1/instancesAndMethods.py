@@ -27,4 +27,4 @@ print(TestCase.mark_passed(test_case1))  # This should print: Failed
 test_case3 = TestCase(3, "Verify password reset functionality", test_case2.mark_failed(), "Low")
 print(test_case3.status)  # Output: Failed
 
-print(test_case2.__str__())
+print(test_case2.__str__())# prints string representation of test_case2 object
